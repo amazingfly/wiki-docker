@@ -1,7 +1,9 @@
 FROM centos:latest
-COPY ./ ./
+COPY ./entrypoint.sh ./entrypoint.sh
 #rabbit mq
 EXPOSE 5672
 #maybe postgress
-ENTRYPOINT ["./mainWorker"]
+
+ENTRYPOINT ./entrypoint.sh
+#ENTRYPOINT ["./mainWorker"]
 CMD ["./mainWorker"]

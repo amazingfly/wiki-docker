@@ -1,5 +1,5 @@
 FROM centos:latest
-COPY ./ ./
+COPY ./static ./static
 EXPOSE 8181
 EXPOSE 8888
 ENTRYPOINT ["./serveWiki"]
