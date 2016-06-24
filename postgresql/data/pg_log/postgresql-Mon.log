@@ -1,0 +1,49 @@
+FATAL:  the database system is starting up
+LOG:  database system was interrupted; last known up at 2016-05-20 12:48:37 EDT
+FATAL:  the database system is starting up
+FATAL:  the database system is starting up
+FATAL:  the database system is starting up
+FATAL:  the database system is starting up
+FATAL:  the database system is starting up
+FATAL:  the database system is starting up
+FATAL:  the database system is starting up
+FATAL:  the database system is starting up
+LOG:  database system was not properly shut down; automatic recovery in progress
+LOG:  record with zero length at 0/1EFDB80
+LOG:  redo is not required
+LOG:  database system is ready to accept connections
+LOG:  autovacuum launcher started
+LOG:  using stale statistics instead of current ones because stats collector is not responding
+FATAL:  the database system is starting up
+LOG:  database system was interrupted; last known up at 2016-05-23 15:42:58 EDT
+FATAL:  the database system is starting up
+FATAL:  the database system is starting up
+FATAL:  the database system is starting up
+FATAL:  the database system is starting up
+FATAL:  the database system is starting up
+FATAL:  the database system is starting up
+FATAL:  the database system is starting up
+FATAL:  the database system is starting up
+LOG:  database system was not properly shut down; automatic recovery in progress
+LOG:  record with zero length at 0/1F0D0E8
+LOG:  redo is not required
+LOG:  database system is ready to accept connections
+LOG:  autovacuum launcher started
+LOG:  end-of-line before authentication method
+CONTEXT:  line 82 of configuration file "/var/lib/pgsql/data/pg_hba.conf"
+FATAL:  could not load pg_hba.conf
+FATAL:  the database system is starting up
+LOG:  database system was shut down at 2016-06-03 17:31:46 EDT
+FATAL:  the database system is starting up
+LOG:  database system is ready to accept connections
+LOG:  autovacuum launcher started
+LOG:  received fast shutdown request
+LOG:  aborting any active transactions
+LOG:  autovacuum launcher shutting down
+LOG:  shutting down
+LOG:  database system is shut down
+FATAL:  the database system is starting up
+LOG:  database system was shut down at 2016-06-06 15:24:32 EDT
+FATAL:  the database system is starting up
+LOG:  database system is ready to accept connections
+LOG:  autovacuum launcher started

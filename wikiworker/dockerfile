@@ -1,0 +1,7 @@
+FROM centos:latest
+COPY ./ ./
+#rabbit mq
+EXPOSE 5672
+#maybe postgress
+ENTRYPOINT ["./mainWorker"]
+CMD ["./mainWorker"]

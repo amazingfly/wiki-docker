@@ -1,0 +1,40 @@
+version: '2'
+
+services:
+  bolt:
+    image: amazingfly/boltengine
+    restart: always
+    expose:
+     - 8888
+    depends_on:
+     - db
+     - rabbitmq
+    ports:
+     - "8888:8888"
+    links:
+     - rabbitmq
+  rabbitmq:
+    image: rabbitmq
+    restart: always
+    expose:
+     - 5672
+    ports:
+     - "5672:5672"
+  db:
+    image: amazingfly/postgres
+    restart: always
+    ports:
+     - "5432:5432"
+    depends_on:
+     - rabbitmq
+  wiki:
+    image: amazingfly/wiki
+    restart: always
+    ports:
+     - "8181:8181"
+  wikiworker:
+    image: amazingfly/wikiworker
+    restart: always
+    depends_on:
+     - db
+     - rabbitmq

@@ -1,0 +1,6 @@
+FROM centos:latest
+COPY ./ ./
+EXPOSE 8181
+EXPOSE 8888
+ENTRYPOINT ["./serveWiki"]
+CMD ["./serveWiki"]

@@ -1,0 +1,43 @@
+FROM centos:latest
+MAINTAINER amazingfly
+
+ENV BOLT_VERSION 1.1.0
+ENV BOLT_URL https://github.com/TeamFairmont/boltengine/releases/download/v$BOLT_VERSION/boltengine-$BOLT_VERSION.tar.gz
+ENV APICALLS_URL https://raw.githubusercontent.com/amazingfly/configs/master/apihttps://raw.githubusercontent.com/amazingfly/configs/master/apiCalls.json
+ENV MQURL '"mqUrl": "amqp://guest:guest@rabbitmq:5672/",'
+ENV REDISURL '"host": "redis:6379",'
+ENV REDIS_TYPE '"type": "redis",'
+ENV STUB_MODE '"stubMode": false,'
+ENV HMAC_KEY '"hmackey": "engineadmin_hmackey_goes_here"'
+
+#
+#Download unpack and clean up the bolt engine v1.1.0 release
+#
+RUN curl -L -O $BOLT_URL
+RUN tar -xvzf boltengine*.tar.gz
+RUN rm *.exe
+RUN rm boltengine*.tar.gz
+
+#
+#download and put apiCalls.json in extra config directory
+#
+RUN curl -L -O $APICALLS_URL
+RUN cp apiCalls.json /etc/bolt/apiCalls.json
+
+#insert mqUrl into config.json
+RUN sed -i "62i $MQURL" ./etc/bolt/config.json
+
+#insert authentication into config.json
+RUN sed -i s/'"hmackey": "hmackey1_goes_here"'/"$HMAC_KEY"/g /etc/bolt/config.json
+RUN sed -i s/'"stubMode": true,'/"$STUB_MODE"/g /etc/bolt/config.json
+
+#enable caching by inserting into config.json
+RUN sed -i s/'"host": "localhost:6379",'/"$REDISURL"/g /etc/bolt/config.json
+RUN sed -i s/'"type": "",'/"$REDIS_URL"/g /etc/bolt/config.json
+
+COPY ./ ./
+
+ENTRYPOINT ./entrypoint.sh
+
+#run the binary
+#ENTRYPOINT ./boltengine

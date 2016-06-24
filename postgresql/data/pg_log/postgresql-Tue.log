@@ -1,0 +1,1232 @@
+FATAL:  the database system is starting up
+LOG:  database system was interrupted; last known up at 2016-05-16 17:18:37 EDT
+FATAL:  the database system is starting up
+FATAL:  the database system is starting up
+FATAL:  the database system is starting up
+FATAL:  the database system is starting up
+FATAL:  the database system is starting up
+FATAL:  the database system is starting up
+FATAL:  the database system is starting up
+FATAL:  the database system is starting up
+FATAL:  the database system is starting up
+LOG:  database system was not properly shut down; automatic recovery in progress
+LOG:  record with zero length at 0/1EBD538
+LOG:  redo is not required
+LOG:  database system is ready to accept connections
+LOG:  autovacuum launcher started
+FATAL:  the database system is starting up
+LOG:  database system was interrupted; last known up at 2016-05-17 11:18:34 EDT
+FATAL:  the database system is starting up
+FATAL:  the database system is starting up
+FATAL:  the database system is starting up
+FATAL:  the database system is starting up
+FATAL:  the database system is starting up
+FATAL:  the database system is starting up
+FATAL:  the database system is starting up
+FATAL:  the database system is starting up
+FATAL:  the database system is starting up
+FATAL:  the database system is starting up
+FATAL:  the database system is starting up
+FATAL:  the database system is starting up
+FATAL:  the database system is starting up
+FATAL:  the database system is starting up
+FATAL:  the database system is starting up
+FATAL:  the database system is starting up
+FATAL:  the database system is starting up
+FATAL:  the database system is starting up
+FATAL:  the database system is starting up
+FATAL:  the database system is starting up
+FATAL:  the database system is starting up
+FATAL:  the database system is starting up
+FATAL:  the database system is starting up
+FATAL:  the database system is starting up
+FATAL:  the database system is starting up
+FATAL:  the database system is starting up
+FATAL:  the database system is starting up
+FATAL:  the database system is starting up
+FATAL:  the database system is starting up
+FATAL:  the database system is starting up
+FATAL:  the database system is starting up
+FATAL:  the database system is starting up
+FATAL:  the database system is starting up
+FATAL:  the database system is starting up
+FATAL:  the database system is starting up
+FATAL:  the database system is starting up
+FATAL:  the database system is starting up
+FATAL:  the database system is starting up
+FATAL:  the database system is starting up
+FATAL:  the database system is starting up
+FATAL:  the database system is starting up
+FATAL:  the database system is starting up
+FATAL:  the database system is starting up
+FATAL:  the database system is starting up
+FATAL:  the database system is starting up
+FATAL:  the database system is starting up
+FATAL:  the database system is starting up
+FATAL:  the database system is starting up
+FATAL:  the database system is starting up
+FATAL:  the database system is starting up
+FATAL:  the database system is starting up
+LOG:  database system was not properly shut down; automatic recovery in progress
+FATAL:  the database system is starting up
+LOG:  record with zero length at 0/1ED0860
+LOG:  redo is not required
+FATAL:  the database system is starting up
+FATAL:  the database system is starting up
+FATAL:  the database system is starting up
+FATAL:  the database system is starting up
+LOG:  database system is ready to accept connections
+LOG:  autovacuum launcher started
+LOG:  could not send data to client: Broken pipe
+FATAL:  connection to client lost
+FATAL:  the database system is starting up
+LOG:  database system was interrupted; last known up at 2016-05-17 13:50:47 EDT
+FATAL:  the database system is starting up
+FATAL:  the database system is starting up
+FATAL:  the database system is starting up
+FATAL:  the database system is starting up
+FATAL:  the database system is starting up
+FATAL:  the database system is starting up
+FATAL:  the database system is starting up
+FATAL:  the database system is starting up
+FATAL:  the database system is starting up
+FATAL:  the database system is starting up
+FATAL:  the database system is starting up
+FATAL:  the database system is starting up
+FATAL:  the database system is starting up
+FATAL:  the database system is starting up
+FATAL:  the database system is starting up
+FATAL:  the database system is starting up
+FATAL:  the database system is starting up
+FATAL:  the database system is starting up
+FATAL:  the database system is starting up
+FATAL:  the database system is starting up
+FATAL:  the database system is starting up
+FATAL:  the database system is starting up
+FATAL:  the database system is starting up
+FATAL:  the database system is starting up
+FATAL:  the database system is starting up
+FATAL:  the database system is starting up
+FATAL:  the database system is starting up
+FATAL:  the database system is starting up
+FATAL:  the database system is starting up
+FATAL:  the database system is starting up
+FATAL:  the database system is starting up
+FATAL:  the database system is starting up
+FATAL:  the database system is starting up
+FATAL:  the database system is starting up
+FATAL:  the database system is starting up
+FATAL:  the database system is starting up
+FATAL:  the database system is starting up
+FATAL:  the database system is starting up
+FATAL:  the database system is starting up
+FATAL:  the database system is starting up
+FATAL:  the database system is starting up
+FATAL:  the database system is starting up
+FATAL:  the database system is starting up
+FATAL:  the database system is starting up
+FATAL:  the database system is starting up
+FATAL:  the database system is starting up
+FATAL:  the database system is starting up
+FATAL:  the database system is starting up
+FATAL:  the database system is starting up
+FATAL:  the database system is starting up
+FATAL:  the database system is starting up
+FATAL:  the database system is starting up
+FATAL:  the database system is starting up
+FATAL:  the database system is starting up
+FATAL:  the database system is starting up
+FATAL:  the database system is starting up
+FATAL:  the database system is starting up
+FATAL:  the database system is starting up
+FATAL:  the database system is starting up
+FATAL:  the database system is starting up
+FATAL:  the database system is starting up
+FATAL:  the database system is starting up
+FATAL:  the database system is starting up
+FATAL:  the database system is starting up
+FATAL:  the database system is starting up
+FATAL:  the database system is starting up
+FATAL:  the database system is starting up
+FATAL:  the database system is starting up
+FATAL:  the database system is starting up
+FATAL:  the database system is starting up
+FATAL:  the database system is starting up
+FATAL:  the database system is starting up
+FATAL:  the database system is starting up
+FATAL:  the database system is starting up
+FATAL:  the database system is starting up
+FATAL:  the database system is starting up
+FATAL:  the database system is starting up
+FATAL:  the database system is starting up
+FATAL:  the database system is starting up
+FATAL:  the database system is starting up
+FATAL:  the database system is starting up
+FATAL:  the database system is starting up
+FATAL:  the database system is starting up
+FATAL:  the database system is starting up
+FATAL:  the database system is starting up
+FATAL:  the database system is starting up
+FATAL:  the database system is starting up
+FATAL:  the database system is starting up
+FATAL:  the database system is starting up
+FATAL:  the database system is starting up
+FATAL:  the database system is starting up
+FATAL:  the database system is starting up
+FATAL:  the database system is starting up
+FATAL:  the database system is starting up
+FATAL:  the database system is starting up
+FATAL:  the database system is starting up
+FATAL:  the database system is starting up
+FATAL:  the database system is starting up
+FATAL:  the database system is starting up
+FATAL:  the database system is starting up
+FATAL:  the database system is starting up
+FATAL:  the database system is starting up
+LOG:  database system was not properly shut down; automatic recovery in progress
+LOG:  record with zero length at 0/1ED08C0
+LOG:  redo is not required
+FATAL:  the database system is starting up
+LOG:  database system is ready to accept connections
+LOG:  autovacuum launcher started
+LOG:  received fast shutdown request
+LOG:  aborting any active transactions
+LOG:  autovacuum launcher shutting down
+LOG:  shutting down
+LOG:  database system is shut down
+FATAL:  the database system is starting up
+LOG:  database system was shut down at 2016-05-17 17:14:19 EDT
+FATAL:  the database system is starting up
+FATAL:  the database system is starting up
+FATAL:  the database system is starting up
+FATAL:  the database system is starting up
+LOG:  database system is ready to accept connections
+LOG:  autovacuum launcher started
+FATAL:  the database system is starting up
+LOG:  database system was interrupted; last known up at 2016-05-17 17:35:26 EDT
+FATAL:  the database system is starting up
+FATAL:  the database system is starting up
+FATAL:  the database system is starting up
+FATAL:  the database system is starting up
+FATAL:  the database system is starting up
+FATAL:  the database system is starting up
+FATAL:  the database system is starting up
+FATAL:  the database system is starting up
+FATAL:  the database system is starting up
+FATAL:  the database system is starting up
+FATAL:  the database system is starting up
+LOG:  database system was not properly shut down; automatic recovery in progress
+LOG:  record with zero length at 0/1ED4F80
+LOG:  redo is not required
+FATAL:  the database system is starting up
+LOG:  database system is ready to accept connections
+LOG:  autovacuum launcher started
+FATAL:  the database system is starting up
+LOG:  database system was interrupted; last known up at 2016-05-23 16:52:55 EDT
+FATAL:  the database system is starting up
+FATAL:  the database system is starting up
+FATAL:  the database system is starting up
+FATAL:  the database system is starting up
+FATAL:  the database system is starting up
+FATAL:  the database system is starting up
+FATAL:  the database system is starting up
+FATAL:  the database system is starting up
+LOG:  database system was not properly shut down; automatic recovery in progress
+LOG:  record with zero length at 0/1F0D148
+LOG:  redo is not required
+LOG:  database system is ready to accept connections
+LOG:  autovacuum launcher started
+LOG:  received fast shutdown request
+LOG:  aborting any active transactions
+LOG:  autovacuum launcher shutting down
+LOG:  shutting down
+LOG:  database system is shut down
+FATAL:  the database system is starting up
+LOG:  database system was shut down at 2016-05-24 10:11:28 EDT
+FATAL:  the database system is starting up
+FATAL:  the database system is starting up
+LOG:  database system is ready to accept connections
+LOG:  autovacuum launcher started
+FATAL:  the database system is starting up
+LOG:  database system was interrupted; last known up at 2016-05-24 10:12:07 EDT
+FATAL:  the database system is starting up
+FATAL:  the database system is starting up
+FATAL:  the database system is starting up
+FATAL:  the database system is starting up
+FATAL:  the database system is starting up
+FATAL:  the database system is starting up
+FATAL:  the database system is starting up
+FATAL:  the database system is starting up
+FATAL:  the database system is starting up
+FATAL:  the database system is starting up
+FATAL:  the database system is starting up
+LOG:  database system was not properly shut down; automatic recovery in progress
+LOG:  record with zero length at 0/1F17AF0
+LOG:  redo is not required
+LOG:  database system is ready to accept connections
+LOG:  autovacuum launcher started
+FATAL:  the database system is starting up
+LOG:  database system was interrupted; last known up at 2016-05-24 10:16:41 EDT
+FATAL:  the database system is starting up
+FATAL:  the database system is starting up
+FATAL:  the database system is starting up
+FATAL:  the database system is starting up
+FATAL:  the database system is starting up
+FATAL:  the database system is starting up
+FATAL:  the database system is starting up
+FATAL:  the database system is starting up
+FATAL:  the database system is starting up
+FATAL:  the database system is starting up
+LOG:  database system was not properly shut down; automatic recovery in progress
+LOG:  record with zero length at 0/1F17B50
+LOG:  redo is not required
+LOG:  database system is ready to accept connections
+LOG:  autovacuum launcher started
+LOG:  received fast shutdown request
+LOG:  aborting any active transactions
+LOG:  autovacuum launcher shutting down
+LOG:  shutting down
+LOG:  database system is shut down
+FATAL:  the database system is starting up
+LOG:  database system was shut down at 2016-05-24 11:27:11 EDT
+FATAL:  the database system is starting up
+LOG:  database system is ready to accept connections
+LOG:  autovacuum launcher started
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  the database system is starting up
+LOG:  database system was interrupted; last known up at 2016-05-27 14:09:01 EDT
+FATAL:  the database system is starting up
+FATAL:  the database system is starting up
+FATAL:  the database system is starting up
+FATAL:  the database system is starting up
+FATAL:  the database system is starting up
+FATAL:  the database system is starting up
+FATAL:  the database system is starting up
+FATAL:  the database system is starting up
+FATAL:  the database system is starting up
+LOG:  database system was not properly shut down; automatic recovery in progress
+LOG:  record with zero length at 0/1F2B1D0
+LOG:  redo is not required
+FATAL:  the database system is starting up
+FATAL:  the database system is starting up
+LOG:  database system is ready to accept connections
+LOG:  autovacuum launcher started
+LOG:  received fast shutdown request
+LOG:  aborting any active transactions
+LOG:  autovacuum launcher shutting down
+LOG:  shutting down
+LOG:  database system is shut down
+FATAL:  the database system is starting up
+LOG:  database system was shut down at 2016-05-31 09:46:31 EDT
+FATAL:  the database system is starting up
+LOG:  database system is ready to accept connections
+LOG:  autovacuum launcher started
+LOG:  received fast shutdown request
+LOG:  aborting any active transactions
+LOG:  autovacuum launcher shutting down
+LOG:  shutting down
+LOG:  database system is shut down
+FATAL:  the database system is starting up
+LOG:  database system was shut down at 2016-05-31 11:55:58 EDT
+FATAL:  the database system is starting up
+LOG:  database system is ready to accept connections
+LOG:  autovacuum launcher started
+FATAL:  the database system is starting up
+LOG:  database system was interrupted; last known up at 2016-06-06 16:38:16 EDT
+FATAL:  the database system is starting up
+FATAL:  the database system is starting up
+FATAL:  the database system is starting up
+FATAL:  the database system is starting up
+FATAL:  the database system is starting up
+FATAL:  the database system is starting up
+FATAL:  the database system is starting up
+FATAL:  the database system is starting up
+FATAL:  the database system is starting up
+FATAL:  the database system is starting up
+FATAL:  the database system is starting up
+FATAL:  the database system is starting up
+LOG:  database system was not properly shut down; automatic recovery in progress
+LOG:  record with zero length at 0/1F317A8
+LOG:  redo is not required
+LOG:  database system is ready to accept connections
+LOG:  autovacuum launcher started
+LOG:  received fast shutdown request
+LOG:  aborting any active transactions
+LOG:  autovacuum launcher shutting down
+LOG:  shutting down
+LOG:  database system is shut down
+FATAL:  the database system is starting up
+LOG:  database system was shut down at 2016-06-07 10:28:04 EDT
+FATAL:  the database system is starting up
+FATAL:  the database system is starting up
+LOG:  database system is ready to accept connections
+LOG:  autovacuum launcher started

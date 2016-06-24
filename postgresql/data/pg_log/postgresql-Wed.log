@@ -1,0 +1,93 @@
+FATAL:  the database system is starting up
+LOG:  database system was interrupted; last known up at 2016-05-17 22:32:37 EDT
+FATAL:  the database system is starting up
+FATAL:  the database system is starting up
+FATAL:  the database system is starting up
+FATAL:  the database system is starting up
+FATAL:  the database system is starting up
+FATAL:  the database system is starting up
+FATAL:  the database system is starting up
+FATAL:  the database system is starting up
+FATAL:  the database system is starting up
+FATAL:  the database system is starting up
+FATAL:  the database system is starting up
+FATAL:  the database system is starting up
+FATAL:  the database system is starting up
+FATAL:  the database system is starting up
+FATAL:  the database system is starting up
+FATAL:  the database system is starting up
+FATAL:  the database system is starting up
+FATAL:  the database system is starting up
+FATAL:  the database system is starting up
+FATAL:  the database system is starting up
+LOG:  database system was not properly shut down; automatic recovery in progress
+LOG:  record with zero length at 0/1ED4FE0
+LOG:  redo is not required
+LOG:  database system is ready to accept connections
+LOG:  autovacuum launcher started
+FATAL:  the database system is starting up
+LOG:  database system was interrupted; last known up at 2016-05-24 11:27:48 EDT
+FATAL:  the database system is starting up
+FATAL:  the database system is starting up
+FATAL:  the database system is starting up
+FATAL:  the database system is starting up
+FATAL:  the database system is starting up
+FATAL:  the database system is starting up
+FATAL:  the database system is starting up
+FATAL:  the database system is starting up
+FATAL:  the database system is starting up
+LOG:  database system was not properly shut down; automatic recovery in progress
+LOG:  record with zero length at 0/1F17C10
+LOG:  redo is not required
+LOG:  database system is ready to accept connections
+LOG:  autovacuum launcher started
+FATAL:  the database system is starting up
+LOG:  database system was interrupted; last known up at 2016-05-31 11:58:04 EDT
+FATAL:  the database system is starting up
+FATAL:  the database system is starting up
+FATAL:  the database system is starting up
+FATAL:  the database system is starting up
+FATAL:  the database system is starting up
+FATAL:  the database system is starting up
+FATAL:  the database system is starting up
+FATAL:  the database system is starting up
+FATAL:  the database system is starting up
+FATAL:  the database system is starting up
+LOG:  database system was not properly shut down; automatic recovery in progress
+LOG:  record with zero length at 0/1F2B2F0
+LOG:  redo is not required
+LOG:  database system is ready to accept connections
+LOG:  autovacuum launcher started
+LOG:  received fast shutdown request
+LOG:  aborting any active transactions
+LOG:  autovacuum launcher shutting down
+LOG:  shutting down
+LOG:  database system is shut down
+FATAL:  the database system is starting up
+LOG:  database system was shut down at 2016-06-01 12:21:10 EDT
+LOG:  database system is ready to accept connections
+LOG:  autovacuum launcher started
+FATAL:  the database system is starting up
+FATAL:  the database system is starting up
+LOG:  could not send data to client: Broken pipe
+LOG:  database system was interrupted; last known up at 2016-06-07 10:28:48 EDT
+FATAL:  the database system is starting up
+FATAL:  the database system is starting up
+FATAL:  the database system is starting up
+FATAL:  the database system is starting up
+FATAL:  the database system is starting up
+FATAL:  the database system is starting up
+FATAL:  the database system is starting up
+FATAL:  the database system is starting up
+FATAL:  the database system is starting up
+LOG:  database system was not properly shut down; automatic recovery in progress
+LOG:  record with zero length at 0/1F31868
+LOG:  redo is not required
+FATAL:  the database system is starting up
+LOG:  database system is ready to accept connections
+LOG:  autovacuum launcher started
+LOG:  received fast shutdown request
+LOG:  aborting any active transactions
+LOG:  autovacuum launcher shutting down
+LOG:  shutting down
+LOG:  database system is shut down

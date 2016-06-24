@@ -1,0 +1,166 @@
+FATAL:  the database system is starting up
+LOG:  database system was interrupted; last known up at 2016-05-25 17:27:20 EDT
+FATAL:  the database system is starting up
+FATAL:  the database system is starting up
+FATAL:  the database system is starting up
+FATAL:  the database system is starting up
+FATAL:  the database system is starting up
+FATAL:  the database system is starting up
+FATAL:  the database system is starting up
+FATAL:  the database system is starting up
+FATAL:  the database system is starting up
+LOG:  database system was not properly shut down; automatic recovery in progress
+LOG:  record with zero length at 0/1F203B8
+LOG:  redo is not required
+LOG:  database system is ready to accept connections
+LOG:  autovacuum launcher started
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  sorry, too many clients already
+FATAL:  the database system is starting up
+LOG:  database system was interrupted; last known up at 2016-06-01 12:21:53 EDT
+FATAL:  the database system is starting up
+FATAL:  the database system is starting up
+FATAL:  the database system is starting up
+FATAL:  the database system is starting up
+FATAL:  the database system is starting up
+FATAL:  the database system is starting up
+FATAL:  the database system is starting up
+FATAL:  the database system is starting up
+FATAL:  the database system is starting up
+FATAL:  the database system is starting up
+FATAL:  the database system is starting up
+FATAL:  the database system is starting up
+FATAL:  the database system is starting up
+LOG:  database system was not properly shut down; automatic recovery in progress
+LOG:  record with zero length at 0/1F2B3B0
+LOG:  redo is not required
+FATAL:  the database system is starting up
+FATAL:  the database system is starting up
+LOG:  database system is ready to accept connections
+LOG:  autovacuum launcher started
+LOG:  received fast shutdown request
+LOG:  aborting any active transactions
+LOG:  autovacuum launcher shutting down
+LOG:  shutting down
+LOG:  database system is shut down
+FATAL:  the database system is starting up
+LOG:  database system was shut down at 2016-06-02 12:43:52 EDT
+FATAL:  the database system is starting up
+LOG:  database system is ready to accept connections
+LOG:  autovacuum launcher started
+FATAL:  the database system is starting up
+LOG:  database system was interrupted; last known up at 2016-06-02 13:09:38 EDT
+FATAL:  the database system is starting up
+FATAL:  the database system is starting up
+FATAL:  the database system is starting up
+FATAL:  the database system is starting up
+FATAL:  the database system is starting up
+FATAL:  the database system is starting up
+FATAL:  the database system is starting up
+FATAL:  the database system is starting up
+LOG:  database system was not properly shut down; automatic recovery in progress
+FATAL:  the database system is starting up
+LOG:  record with zero length at 0/1F30A70
+LOG:  redo is not required
+LOG:  database system is ready to accept connections
+LOG:  autovacuum launcher started

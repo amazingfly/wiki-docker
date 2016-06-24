@@ -1,0 +1,38 @@
+version: '2'
+
+services:
+  bolt:
+    #build: /home/dev/go/src/github.com/TeamFairmont/boltengine
+    image: b
+    depends_on:
+     - rabbitmq
+    ports:
+     - "8888:8888"
+    links:
+     - rabbitmq
+     - db
+  rabbitmq:
+    image: rabbitmq
+    expose:
+     - "5672"
+  wiki:
+    build: /home/dev/go/src/github.com/TeamFairmont/example-wiki
+    ports:
+     - "8181:8181"
+    volumes:
+     - .:/home/dev/go/src/github.com/TeamFairmont/example-wiki
+  wikiworker:
+    build: /home/dev/go/src/github.com/TeamFairmont/example-wiki/worker
+    depends_on:
+     - bolt
+    links:
+     - rabbitmq
+     - db
+     - wiki
+  db:
+    image: sameersbn/postgresql
+    environment:
+     - PGDATA=./data
+     - POSTGRES_PASSWORD=postgres
+    ports:
+     - "5432:5432"
