@@ -1,0 +1,95 @@
+{{define "view.html"}}
+<head>
+<style>
+body { /*main body of the wiki*/
+    background-color: lightblue;/*#d0e4fe;*/
+    margin-top: 100px;
+    text-align: center;
+}
+
+h1, h2, h3, h4 {/*For the Title */
+    color: orange;
+    text-align: center;
+}
+p{
+    text-align: center;
+}
+.stats{/*for the last edited by */
+    text-align: center;
+    display: block;
+}
+#searchBar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    max-height: 100px;
+    width: 100%;
+    background-color: cyan;
+    border: 3px solid darkcyan;
+}
+#reg{/*for the registration panel*/
+    display:none;
+}
+</style>
+<script>
+    let history;//will hold the edit history, only after it is requested by clicking the history button
+    function getHistory (){
+        if ( history == null ){//if history is null ajax the server for edit history
+            $.get( "/history/"+{{.Title}}, { searchKey: {{.Title}} } )
+            .done(function( data ) {
+                history = data;
+                document.getElementById("historyArea").innerHTML = history;
+            });
+        }
+    }
+    //displayHide displays or hides a passed in element by id
+    function displayHide(displayArea){//displays or hides the desired field
+        if (document.getElementById(displayArea).style.display == "none"){//if style="display:none;"
+            document.getElementById(displayArea).style.display = "block";//style="display:block;"
+        } else {
+            document.getElementById(displayArea).style.display = "none";//else style="display:none;"
+        }
+    }
+    //editClick is called when the editButton is clicked
+    function editClick(){//
+        displayHide("editArea");
+    }
+    //historyClick is called when the historyButton is clicked
+    function historyClick(){
+        getHistory();
+        displayHide("historyArea");
+    }
+</script>
+</head>
+<body>
+<!-- registration is hidden untill the regiistration button is clicked-->
+<div id="reg"> 
+    {{template "register.html" .}}
+</div>
+<!-- index area is the top bar fixed to the viewport-->
+<div id="searchBar"><center>
+    {{template "index.html" .}}
+</div></center>
+
+<h1>{{.Title}}</h1>
+
+<div>{{ .Body }}</div>
+<!-- Button to display the edit screen-->
+<center>
+<button id="editButton" onclick="editClick()">edit</button>
+</center>
+<!-- area to display edit screen-->
+<div style="display:none;" id="editArea">
+    {{template "edit" .}}
+</div>
+<!-- Button to ajax and display or hide the edit history -->
+<center>
+<button id="historyButton" onclick="historyClick()">history</button>
+</center>
+<!-- area for edit history to be displayed-->
+<p style="display:none;" id="historyArea"></p>
+<!-- last edited by etc -->
+<p class="stats"  id="editIP" >{{printf "Last edited by: %s" .EditIP}}</p>
+<p class="stats" >{{printf "Last edited on: %s" .CreatedAt}}</p>
+</body>
+{{end}}

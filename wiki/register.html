@@ -1,0 +1,114 @@
+{{define "register.html"}}
+<style>
+    /*.fields{  not used?
+        display:inline-block;
+        right:2%;
+    }*/ 
+    .label {/*for formatting the registration panel*/
+        display:inline-block;
+        left:2%;
+        text-align:right;
+    }
+    .registerArea{/*the entire registration area*/
+        background-color:gray;
+        display:block;
+        position:fixed;
+        max-width: 40%;
+        max-height: 40%;
+        top:10%;
+        right:10%;
+        z-index:3;
+    }
+    .registerFields{
+        display:inline-block;
+        max-width:60%;
+        right:2%;
+    }
+    .f {/*text labels of each field*/
+        display:block;
+        max-width:90%;
+        left:2%;
+    }
+    #errorArea{/*only displays if there are validation errors when submitting registration*/
+        display:none;
+        color:red;
+    }
+</style>
+
+<!-- imports-->
+<script type="text/javascript" src="/static/validate.min.js"></script>
+<script src="https://code.jquery.com/jquery-1.9.1.min.js"></script>
+
+<script>
+    //button listeners
+    $( document ).ready(function() {
+      $( "#cancelButton").on( "click", function(){
+          displayHide("reg");//hide
+          //remove anything entered into the text fields
+          var target = document.getElementsByClassName("registerFields");
+          for ( x in target){
+              target[x].value = "";
+          }
+          document.getElementById("errorArea").innerHTML = "";
+          displayHide("errorArea");
+      });
+      $( "#regButton" ).on( "click", function() {
+        $.get( "/register", {  user: (document.getElementById("userNameField").value), 
+            pass:  (document.getElementById("passField").value), rePass:  (document.getElementById("rePassField").value),
+            fName: (document.getElementById("firstNameField").value), lName: (document.getElementById("lastNameField").value),
+            email: (document.getElementById("emailField").value)  } )
+        .done(function( data ) {
+          });
+      });
+    //validation for user registration
+    var validator = new FormValidator('registerForm', [{
+        name: 'userNameField',
+        display: 'User Name',
+        rules: 'required'
+    }, {
+        name: 'passField',
+        display: 'Password',
+        rules: 'REQUIRED'
+    }, {
+        name: 'rePassField',
+        display: 'Re-Password',
+        rules: 'required|matches[passField]'
+    }, {
+        name: 'emailField',
+        display: 'Email',
+        rules: 'required|valid_email'
+    }], function(errors, event) {
+        var errorMSG = "";
+        if (errors.length > 0) {
+            var x;
+            for (x in errors){
+                errorMSG += errors[x].message + "<br>";
+            }
+            document.getElementById("errorArea").innerHTML = errorMSG;
+            document.getElementById("errorArea").style.display = "block";
+        }
+    });
+});
+</script>
+    <!-- title and error display erea-->
+    <div class="registerArea"><h1><center>Register</center></h1>
+    <div id="errorArea">
+    </div>
+    <!-- form uses validate.js to validate the registration fields-->
+    <form name="registerForm">
+    <span class="label">
+        <span class="f">User Name: <input class="registerFields" name="userNameField" id="userNameField" type="text" placeholder="Enter user name" ></input></span>
+        <span class="f">Password: <input class="registerFields" name="passField" id="passField" type="password" placeholder="Enter password"></input></span>
+        <span class="f">Re-Password: <input class="registerFields" name="rePassField" id="rePassField" type="password" placeholder="Re-enter password"></input></span>
+        <span class="f">First Name: <input class="registerFields" name="firstNameField" id="firstNameField" type="text" placeholder="Enter first name"></input></span>
+        <span class="f">Last Name: <input class="registerFields" name="lastNameField" id="lastNameField" type="text" placeholder="Enter last name"></input></span>
+        <span class="f">Email: <input class="registerFields" name="emailField" id="emailField" type="text" placeholder="Enter e-mail"></input></span>
+    </span>
+    <center>
+    <!--buttons-->
+    <input name="regButton" id="regButton" value="Submit" type="submit"> </input>
+    <input name="cancelButton" id="cancelButton" value="Cancel" type="button"> </input>
+    </center>
+    </form>
+    </div>
+{{end}}

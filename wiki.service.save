@@ -1,0 +1,11 @@
+[Unit]
+Description=Dockerized MongoDB Service
+After=docker.service
+BindsTo=docker.service
+
+ 
+[Service]
+ExecStart=/usr/local/bin/docker-compose -f /home/dev/playground/wiki-docker/docker-compose.yml up
+
+[Install]
+WantedBy=multi-user.target

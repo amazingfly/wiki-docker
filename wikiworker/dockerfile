@@ -1,5 +1,5 @@
 FROM centos:latest
-COPY ./entrypoint.sh ./entrypoint.sh
+COPY ./ ./
 #rabbit mq
 EXPOSE 5672
 #maybe postgress

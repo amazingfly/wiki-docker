@@ -3,10 +3,12 @@ version: '2'
 services:
   redis:
     image: redis:latest
+    restart: always
     ports:
      - 6379:6379
   bolt:
-    build: ./bolt
+    image: amazingfly/boltengine
+#    build: ./bolt
     restart: always
     expose:
      - 8888
@@ -27,19 +29,21 @@ services:
     ports:
      - "5672:5672"
   db:
-    build: ./postgresql
+    image: amazingfly/postgres
     restart: always
     ports:
      - "5432:5432"
     depends_on:
      - rabbitmq
   wiki:
-    build: ./wiki
+    image: amazingfly/wiki
+#    build: ./wiki
     restart: always
     ports:
      - "8181:8181"
   wikiworker:
-    build: ./wikiworker
+    image: amazingfly/wikiworker
+#    build: ./wikiworker
     restart: always
     depends_on:
      - db

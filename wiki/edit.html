@@ -1,0 +1,20 @@
+{{ define "edit" }}
+<script>
+    function save(){
+        var a = document.getElementById("titleField").value;
+        document.getElementById("editForm").action = "/save/" + document.getElementById("titleField").value;
+          
+        
+    }
+</script>
+<h1>Editing {{.Title}}</h1>
+
+
+<form id="editForm"  action="/save/{{.Title}}" method="POST">
+{{if not .Title}}
+<div><input id="titleField" type="text" name="titleField" placeholder="Enter title">  </input></div>
+{{end}}
+<div><textarea name="body" rows="20" cols="80">{{printf "%s" .Body}}</textarea></div>
+<div><input onclick="save()" type="submit" value="Save"></div>
+</form>
+{{end}}

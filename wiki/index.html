@@ -1,0 +1,256 @@
+{{define "index.html"}}
+    <style>
+    .searchBar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%; 
+    /*max-width: 300px;*/
+    border: 3px solid #73AD21;
+}
+    .block {
+        display: inline-block;
+        vertical-align:middle;
+        text-align: center;
+    }
+    .blank{/*for spacing and formatting*/
+        display: inline-block;
+        vertical-align:middle;
+        width: 100px;
+        max-height: 100px;
+    }
+    .auth{/*for authentication and login*/
+        display: block;
+    }
+    #logoutArea{
+        display:none;
+    }
+    </style>
+    <script src="https://code.jquery.com/jquery-1.9.1.min.js"></script>
+    <script>
+    var recordArr = [];//will hold all the wiki records for the listbox
+    var selected = "";
+    search();
+    //search searches and displays records
+    function search (){
+        //resets the list and array of records when each new search is started
+        $("#list").empty();
+        recordArr = [];
+        $.get( "/searchField", { searchKey: $("#key").val() } )
+          .done(function( data ) {
+            var jsonmsg = $.parseJSON(data);
+            var i = 0
+            //finds title of a record and adds it to the record array
+            recursiveGetProp(jsonmsg, 'Title', function(obj) {
+                recordArr.push(new record(i, jsonmsg[i].Title, jsonmsg[i].EditIP, jsonmsg[i].UpdatedAt, jsonmsg[i].Rank ));
+                i++;
+            });
+            //sort array by rank then add objects to list
+            recordArr = sort(recordArr)
+            for (i = 0; i < recordArr.length; i++){
+                //add records to the list in ranked order
+                addOption(recordArr[i].Title +" #" + i, i);
+            }
+          });
+        }
+
+    //prototype for record objects
+    function record(index, title, editIP, updatedAt, rank) {
+      this.Index = index;
+      this.Title = title;
+      this.EditIP = editIP;
+      this.UpdatedAt = updatedAt;
+      this.Rank = rank
+      //this.ViewCount = viewCount;
+}
+    //formats the record objects data to be displayed, used in fillFunction
+    function formatRecordText (index){
+      var s = "";
+      s += "Last edited by:  " + recordArr[index].EditIP + '\n';
+      s += "Last edited at:  " + recordArr[index].UpdatedAt + '\n';
+      s += "Search rank:  " + recordArr[index].Rank + '\n';
+      return s;
+    }
+    //calls filltext and sends it formateRecordText to fill the record display text area
+    function fillFunction(){
+      var list = document.getElementById("list");
+      selected = recordArr[list.options[list.selectedIndex].value].Title
+      fillText("display", formatRecordText(list.options[list.selectedIndex].value));
+    }
+    //fills text area using id
+    function fillText(elId,text) {
+        document.getElementById(elId).value = text;
+    }
+    //adds items to list box id = list
+    function addOption(txt, val) {
+      var s = document.getElementById('list');
+      var o = new Option(txt,val);
+      s.options[s.options.length]=o;
+      return true;
+    }
+    //gets a property of the JSON records returned from the search
+    function recursiveGetProp(obj, lookup, callback) {
+        for (property in obj) {
+            if (property == lookup) {
+                callback(obj[property]);
+            } else if (obj[property] instanceof Object) {
+                recursiveGetProp(obj[property], lookup, callback);
+            }
+        }
+    }
+    //button listeners
+    $( document ).ready(function() {
+        //enter kepress clicks search button
+      $('#key').keypress(function(e){
+          if(e.keyCode==13)
+          $('#searchButton').click();
+      });
+      //newButton click listener
+      $( "#newButton" ).on( "click", function() {
+          $.get("/view/"+document.getElementById("key").value);
+          window.location = ('/view/'+ document.getElementById("key").value);
+      });
+      //goButton click listener
+      $( "#goButton" ).on( "click", function() {
+        window.location = ('/view/'+ selected)
+      });
+      //searchButton click listener
+      $( "#searchButton" ).on( "click", function() {
+        search();
+      });
+      //loginButton click listener
+      $( "#loginButton").on( "click", function(){
+          Login();
+      });
+      //registerButton click listener
+      $( "#registerButton").on( "click", function(){
+          Register();
+      });
+      //loggoutButton click listener
+      $( "#logoutButton").on( "click", function(){
+          Logout();
+      });
+      //prepares register button and logout area, something to do with how templates are loaded i think.
+      displayHide("reg");
+      displayHide("logoutArea");
+      //cehck cookie for auth on page load
+      checkCookie();
+    });
+    //displayHide displays or hides a passed in element by id
+    function displayHide(displayArea){//displays or hides the desired field
+        if (document.getElementById(displayArea).style.display == "none"){//if style="display:none;"
+            document.getElementById(displayArea).style.display = "inline-block";//style="display:block;"
+        } else {
+            document.getElementById(displayArea).style.display = "none";//else style="display:none;"
+        }
+    }
+    
+    function editClick(){
+        displayHide("editArea");
+    }
+    function Register(){
+        displayHide("reg")
+    }
+ </script>
+<div class="block">
+<!-- search bar-->
+<input id="key" type="text" name="searchKey" placeholder="Enter Keyword">  </input>
+<div>
+  <!--button to submit search id= searchButton -->
+  <input id="searchButton" type="button" value="Search">
+  <input id="newButton" type="button" value="New">
+</div>
+</div>
+<div class="block">
+  <!--list box to display returned records id= list -->
+  <select name="listBox" id="list" onChange="fillFunction()" size="5"  ></select>
+  </div>
+  <div class="block">
+  <!--text area to display selected record id= display-->
+  <textarea id="display" rows="5" readonly></textarea>
+  </div>
+<span class="block">
+<!-- goButton will navigate to the selected wiki-->
+<input type="button" id="goButton" value="GO"></input><br>
+</span>
+<div class="blank"> </div>
+<!-- login area-->
+<div id="loginArea" class="block" style="horizontal-align:right;">login 
+    <!-- login area-->
+    <input class="auth" name="userName" id="userName" type="text" name="userName" placeholder="Enter user name">  </input>
+    <input class="auth" name="passWord" id="passWord" type="password" name="passWord" placeholder="Enter password">  </input>
+    <input class="authButton" id="loginButton" type="button" value="login"> </input>
+    <input class="authButton" id="registerButton" type="button" value="Register"> </input>
+</div>
+<!-- logout area only shows when logged in, and vice versa-->
+<p id="logoutArea">
+    <span class="logout" id="hello"></span>    
+    <input class="logout" id="logoutButton" type="button" value="Logout"></input>
+</p>
+<script>
+// sort stars a merge sort based on the records rank field
+function sort(arr){
+    var len = arr.length;
+    var mid = Math.floor(len / 2);
+    var left = arr.slice(0, mid);
+    var right = arr.slice(mid, len);
+    
+    if (len === 1){//nothging to sort
+        return arr;
+    }
+    return merge(sort(left), sort(right))//splits the array in 2 untill no further splitting is possible, then merge starts
+}
+//merge merges the arrays back togeather
+function merge(left, right){
+    var result = [];
+    while(left.length || right.length){
+        if(left.length && right.length){
+            if (left[0].Rank < right[0].Rank){
+                result.push(left.shift());
+            } else {
+                result.push(right.shift());
+            }
+        } else if (left.length){
+            result.push(left.shift());
+        } else{
+            result.push(right.shift());
+        }
+    }
+    return result;
+}
+
+function Login(){ 
+    $.get( "/auth", {  user: (document.getElementById("userName").value), pass:  (document.getElementById("passWord").value)  } )
+        .done(function( data ) {
+          });
+          checkCookie();
+}
+//logout will redisplay the login area
+function Logout(){
+    displayHide("loginArea");
+    displayHide("logoutArea");
+}
+//returns a substring of the cookie that matches desired cookie name
+function getCookie(c){
+    var name = c + "=";
+    var cArr = document.cookie.split(';'); //gets an array of cookies from the string, seperated by ;
+    for (var i = 0; i < cArr.length; i++){//for each cookie in cArr
+        var cTemp = cArr[i];
+        while (c.charAt(0)==' '){//get rid of empy space at the beginning
+            cTemp = cTemp.substring(1);
+        }
+        if (cTemp.indexOf(name == 0)){//return desired cookie
+            return cTemp.substring(name.length, cTemp.length);
+        }
+    }
+}
+//check if cookie exists, uses getCookie funcion.
+function checkCookie() {
+    var auth=getCookie("wiki");
+    if (auth!="") {
+        displayHide("loginArea");
+        displayHide("logoutArea");
+    }
+}
+</script>
+{{end}}

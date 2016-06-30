@@ -1,0 +1,31 @@
+<head>
+<style>
+body {
+    background-color: #d0e4fe;
+}
+
+h1 {
+    color: orange;
+    text-align: center;
+}
+
+p{
+    text-align: center;
+}
+
+div {
+    font-family: "Times New Roman";
+    font-size: 20px;
+    text-align: center;
+    
+}
+</style>
+</head>
+<body>
+<h1>{{.Title}}</h1>
+
+<div>{{ .Body }}</div>
+
+<p>[<a href="/edit/{{.Title}}">edit</a>]</p>
+
+</body>
