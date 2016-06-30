@@ -28,7 +28,7 @@ RUN sed -i '/"engine": {/a \\t"mqUrl": "amqp://guest:guest@rabbitmq:5672/",' /et
     sed -i s/'"stubMode": true,'/"$STUB_MODE"/g /etc/bolt/config.json && \
     sed -i s/'"extraConfigFolder": "etc\/bolt\/",'/'"extraConfigFolder": "\/etc\/bolt",'/g /etc/bolt/config.json && \
     sed -i s/'"host": "localhost:6379",'/"$REDISURL"/g /etc/bolt/config.json && \
-    sed -i s/'"type": "",'/"$REDIS_URL"/g /etc/bolt/config.json && \
+    sed -i s/'"type": "",'/"$REDIS_TYPE"/g /etc/bolt/config.json && \
     sed -i s/'"tlsEnabled": false,'/'"tlsEnabled": true,'/g /etc/bolt/config.json
 COPY ./ ./
 
