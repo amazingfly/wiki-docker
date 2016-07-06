@@ -1,4 +1,4 @@
-FROM debian:jessie
+FROM centos:latest
 COPY ./ ./
 #rabbit mq
 EXPOSE 5672

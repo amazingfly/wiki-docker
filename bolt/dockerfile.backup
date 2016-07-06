@@ -1,4 +1,4 @@
-FROM debian:jessie
+FROM centos:latest
 MAINTAINER amazingfly
 
 ENV BOLT_VERSION 1.1.0
@@ -10,16 +10,13 @@ ENV REDIS_TYPE '"type": "redis",'
 ENV STUB_MODE '"stubMode": false,'
 ENV HMAC_KEY '"hmackey": "engineadmin_hmackey_goes_here"'
 
-RUN apt-get update -y
-RUN apt-get install curl -y
-
 #Download unpack and clean up the bolt engine v1.1.0 release
 RUN curl -L -O $BOLT_URL && \
     tar -xzf boltengine*.tar.gz --exclude='*.exe' && \
     rm boltengine*.tar.gz
 
 #tls
-RUN apt-get install -y openssl
+RUN yum install -y openssl
 RUN openssl req -x509 -nodes -days 365 -newkey rsa:2048 -keyout key.pem -out cert.pem -subj "/C=US/ST=North Carolina/L=Winston-Salem/O=CV3/OU=TeamFairmont/CN=192.168.56.103:8181/emailAddress=dstich@commercev3.com"
 
 #download and put apiCalls.json in extra config directory
