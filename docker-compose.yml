@@ -7,8 +7,8 @@ services:
     ports:
      - 6379:6379
   bolt:
-    image: amazingfly/boltengine
-#    build: ./bolt
+#    image: amazingfly/boltengine
+    build: ./bolt
     restart: always
     expose:
      - 8888

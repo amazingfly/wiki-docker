@@ -2,7 +2,6 @@ FROM debian:jessie
 MAINTAINER amazingfly
 
 ENV BOLT_VERSION 1.1.0
-ENV BOLT_URL https://github.com/TeamFairmont/boltengine/releases/download/v$BOLT_VERSION/boltengine-$BOLT_VERSION.tar.gz
 ENV APICALLS_URL https://raw.githubusercontent.com/amazingfly/configs/master/apiCalls.json
 ENV MQURL '"mqUrl": "amqp://guest:guest@rabbitmq:5672/",'
 ENV REDISURL '"host": "redis:6379",'
@@ -11,15 +10,16 @@ ENV STUB_MODE '"stubMode": false,'
 ENV HMAC_KEY '"hmackey": "engineadmin_hmackey_goes_here"'
 
 RUN apt-get update -y
-RUN apt-get install curl -y
+RUN apt-get install curl wget openssl -y
 
-#Download unpack and clean up the bolt engine v1.1.0 release
-RUN curl -L -O $BOLT_URL && \
-    tar -xzf boltengine*.tar.gz --exclude='*.exe' && \
-    rm boltengine*.tar.gz
+# This grabs the tar.gz without knowing the version
+RUN curl -L https://api.github.com/repos/TeamFairmont/boltengine/releases | grep browser_download_url | head -n 1 | cut -d '"' -f 4 | wget --base=http://github.com -i - -O boltengine.tar.gz
+RUN mkdir ./boltengine
+RUN tar xvfz boltengine.tar.gz -C ./
+RUN rm boltengine.tar.gz
 
 #tls
-RUN apt-get install -y openssl
+#RUN apt-get install -y openssl
 RUN openssl req -x509 -nodes -days 365 -newkey rsa:2048 -keyout key.pem -out cert.pem -subj "/C=US/ST=North Carolina/L=Winston-Salem/O=CV3/OU=TeamFairmont/CN=192.168.56.103:8181/emailAddress=dstich@commercev3.com"
 
 #download and put apiCalls.json in extra config directory
@@ -33,7 +33,8 @@ RUN sed -i '/"engine": {/a \\t"mqUrl": "amqp://guest:guest@rabbitmq:5672/",' /et
     sed -i s/'"host": "localhost:6379",'/"$REDISURL"/g /etc/bolt/config.json && \
     sed -i s/'"type": "",'/"$REDIS_TYPE"/g /etc/bolt/config.json && \
     sed -i s/'"tlsEnabled": false,'/'"tlsEnabled": true,'/g /etc/bolt/config.json
-COPY ./ ./
+
+COPY ./entrypoint.sh ./
 
 ENTRYPOINT ./entrypoint.sh
 
