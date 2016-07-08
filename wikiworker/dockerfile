@@ -1,9 +1,4 @@
 FROM debian:jessie
 COPY ./ ./
-#rabbit mq
-EXPOSE 5672
-#maybe postgress
-
 ENTRYPOINT ./entrypoint.sh
-#ENTRYPOINT ["./mainWorker"]
-CMD ["./mainWorker"]
+

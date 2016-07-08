@@ -1,9 +1,10 @@
 FROM debian:jessie
-RUN apt-get update -y
-RUN apt-get install -y openssl
+MAINTAINER amazingfly <derekstich@gmail.com>
+RUN apt-get update -y && \
+    apt-get install -y openssl
+COPY ./ ./wiki
+WORKDIR ./wiki
 RUN openssl req -x509 -nodes -days 365 -newkey rsa:2048 -keyout key.pem -out cert.pem -subj "/C=US/ST=North Carolina/L=Winston-Salem/O=CV3/OU=TeamFairmont/CN=192.168.56.103:8181/emailAddress=dstich@commercev3.com"
-COPY ./ ./
 EXPOSE 8181
-EXPOSE 8888
 ENTRYPOINT ["./serveWiki"]
-CMD ["./serveWiki"]
+

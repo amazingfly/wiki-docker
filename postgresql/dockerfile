@@ -1,5 +1,5 @@
 FROM debian:jessie
-MAINTAINER SvenDowideit@docker.com
+MAINTAINER amazingfly <derekstich@gmail.com>
 
 # Add the PostgreSQL PGP key to verify their Debian packages.
 # It should be the same key as https://www.postgresql.org/media/keys/ACCC4CF8.asc
@@ -36,9 +36,6 @@ RUN echo "host all  all    0.0.0.0/0  trust" >> /etc/postgresql/$PG_VERSION/main
 
 # And add ``listen_addresses`` to ``/etc/postgresql/$PG_VERSION/main/postgresql.conf``
 RUN echo "listen_addresses='*'" >> /etc/postgresql/$PG_VERSION/main/postgresql.conf
-
-#for changing data directory
-#RUN sed -i s/'data_directory = '\''\/var\/lib\/postgresql\/$PG_VERSION\/main'\'''/'data_directory = '\''\/d\/'\'''/g /etc/postgresql/$PG_VERSION/main/postgresql.conf
 
 # Expose the PostgreSQL port
 EXPOSE 5432

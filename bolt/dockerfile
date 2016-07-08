@@ -9,14 +9,15 @@ ENV REDIS_TYPE '"type": "redis",'
 ENV STUB_MODE '"stubMode": false,'
 ENV HMAC_KEY '"hmackey": "engineadmin_hmackey_goes_here"'
 
-RUN apt-get update -y
-RUN apt-get install curl wget openssl -y
+RUN apt-get update -y && \
+    apt-get install curl wget openssl -y
 
 # This grabs the tar.gz without knowing the version
-RUN curl -L https://api.github.com/repos/TeamFairmont/boltengine/releases | grep browser_download_url | head -n 1 | cut -d '"' -f 4 | wget --base=http://github.com -i - -O boltengine.tar.gz
-RUN mkdir ./boltengine
-RUN tar xvfz boltengine.tar.gz -C ./
-RUN rm boltengine.tar.gz
+RUN curl -L https://api.github.com/repos/TeamFairmont/boltengine/releases | grep browser_download_url | head -n 1 | cut -d '"' -f 4 | wget --base=http://github.com -i - -O boltengine.tar.gz && \
+    mkdir ./boltengine /etc/bolt && \
+    tar xfz boltengine.tar.gz -C ./boltengine --exclude='*.exe' && \
+    rm boltengine*.tar.gz && \
+    mv ./boltengine/etc/bolt/config.json /etc/bolt
 
 #tls
 #RUN apt-get install -y openssl
@@ -34,7 +35,7 @@ RUN sed -i '/"engine": {/a \\t"mqUrl": "amqp://guest:guest@rabbitmq:5672/",' /et
     sed -i s/'"type": "",'/"$REDIS_TYPE"/g /etc/bolt/config.json && \
     sed -i s/'"tlsEnabled": false,'/'"tlsEnabled": true,'/g /etc/bolt/config.json
 
-COPY ./entrypoint.sh ./
+COPY ./entrypoint.sh ./boltengine/entrypoint.sh
 
-ENTRYPOINT ./entrypoint.sh
+ENTRYPOINT ./boltengine/entrypoint.sh
 
