@@ -1,4 +1,5 @@
 FROM debian:jessie
+MAINTAINER amazingfly <derekstich@gmail.com>
 COPY ./ ./
 ENTRYPOINT ./entrypoint.sh
 

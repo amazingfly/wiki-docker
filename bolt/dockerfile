@@ -1,5 +1,5 @@
 FROM debian:jessie
-MAINTAINER amazingfly
+MAINTAINER amazingfly <derekstich@gmail.com>
 
 ENV BOLT_VERSION 1.1.0
 ENV APICALLS_URL https://raw.githubusercontent.com/amazingfly/configs/master/apiCalls.json
@@ -9,6 +9,7 @@ ENV REDIS_TYPE '"type": "redis",'
 ENV STUB_MODE '"stubMode": false,'
 ENV HMAC_KEY '"hmackey": "engineadmin_hmackey_goes_here"'
 
+#updates and gets the required packages
 RUN apt-get update -y && \
     apt-get install curl wget openssl -y
 
@@ -19,8 +20,7 @@ RUN curl -L https://api.github.com/repos/TeamFairmont/boltengine/releases | grep
     rm boltengine*.tar.gz && \
     mv ./boltengine/etc/bolt/config.json /etc/bolt
 
-#tls
-#RUN apt-get install -y openssl
+#makes cert for https
 RUN openssl req -x509 -nodes -days 365 -newkey rsa:2048 -keyout key.pem -out cert.pem -subj "/C=US/ST=North Carolina/L=Winston-Salem/O=CV3/OU=TeamFairmont/CN=192.168.56.103:8181/emailAddress=dstich@commercev3.com"
 
 #download and put apiCalls.json in extra config directory
