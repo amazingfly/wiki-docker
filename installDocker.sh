@@ -31,7 +31,7 @@ curl -L https://github.com/docker/compose/releases/download/1.8.0-rc1/docker-com
 chmod +x /usr/local/bin/docker-compose
 
 #get example wiki's docker-compose.yml
-curl -L -O https://raw.githubusercontent.com/amazingfly/configs/master/docker-compose.yml
+curl -L -O https://raw.githubusercontent.com/amazingfly/wiki-docker/master/docker-compose.yml
 
 #run docker compose
 docker-compose up
